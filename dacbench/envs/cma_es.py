@@ -163,7 +163,7 @@ class CMAESEnv(AbstractEnv):
         """
         return True
 
-    def render(self, mode = 'human'):
+    def render(self, mode: str = "human"):
         """
         Render env in human mode
 
